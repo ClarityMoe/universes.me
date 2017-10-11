@@ -33,11 +33,7 @@
     text-shadow: 0 0 5px #000;
 }
 .centerLogo {
-    font-family: Streamster;
-    color: #fff;
     cursor: default;
-    font-size: 300%;
-    letter-spacing: 2px;
     position: fixed;
     top: 50%;
     left: 50%;
