@@ -7,28 +7,11 @@
     user-select: none;
 }
 
-.bg {
-    width: 100%;
-    height: 100%;
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    object-fit: cover;
-    -webkit-animation: fadein 2s;
-    z-index: -1;
+body {
+    background: #4286f4;
+    background: linear-gradient(to top, #072960, #000000);
+    background-repeat: no-repeat;
   }
-.copyright {
-    font-family: Montserrat, Muli, Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-    opacity: 0.5;
-    color: white;
-    text-shadow: 0 0 15px #000;
-    transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1), text-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-}
 .copyright:hover {
     opacity: 1;
     text-shadow: 0 0 5px #000;
